@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c93b961-6633-4a79-b4aa-faed591bf767" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/AJM UKAS CERT.old.1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ISO9001_front_page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ISO9001_small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/iso9001_cert_download.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <ignored path="ajmay_responsive.iws" />
@@ -31,8 +25,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="361" column="206" selection-start-line="361" selection-start-column="206" selection-end-line="361" selection-end-column="206" />
+            <state relative-caret-position="606">
+              <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#58#65#1" expanded="true" />
@@ -52,6 +46,7 @@
       <find>accreditations</find>
       <find>quality</find>
       <find>Please feel fr</find>
+      <find>Fully</find>
     </findStrings>
     <replaceStrings>
       <replace>certified</replace>
@@ -183,12 +178,12 @@
       <workItem from="1475143699296" duration="159000" />
       <workItem from="1497361958773" duration="772000" />
       <workItem from="1511948347173" duration="2599000" />
-      <workItem from="1526894292954" duration="1900000" />
+      <workItem from="1526894292954" duration="2532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6726000" />
+    <option name="totallyTimeSpent" value="7358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1675" height="937" extended-state="0" />
@@ -308,10 +303,13 @@
     <entry file="file://$PROJECT_DIR$/img/ISO-9001_AND_AS-9100_UKAS_small.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/cert_download.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="361" column="206" selection-start-line="361" selection-start-column="206" selection-end-line="361" selection-end-column="206" />
+        <state relative-caret-position="606">
+          <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#58#65#1" expanded="true" />

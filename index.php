@@ -139,7 +139,7 @@
 
 				<div class="main-points row-fluid">
 					<div class="span4 text-center">
-						Lloyds LRQA 9001:2008 certified
+                        Lloyds AS9100D & ISO9001:2015 certified
 					</div>
 					<div class="span4 text-center hidden-phone">
 						Maximising Customer Value
