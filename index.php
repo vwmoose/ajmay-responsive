@@ -421,7 +421,7 @@
                     </div>
                     <div class="span3">
                         <div class="person">
-                            <img alt="Marc Kenna" src="img/profiles/person.jpg">
+                            <img alt="Marc Kenna" src="img/profiles/marckenna.jpg">
                             <h2>Marc Kenna</h2>
                             <p class="position">Precision Parts<br/>Manager</p>
                             <p><a href="mailto:mkenna@ajmay.uk">mkenna@ajmay.uk</a></p>
