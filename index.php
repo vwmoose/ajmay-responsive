@@ -280,7 +280,7 @@
 							<li><span class="strongish">2D, 3D & 3D Modelling</span> using <a href="https://www.autodesk.co.uk/" target="_blank">Autodesk</a>, <a href="http://www.powermill.com/" target="_blank">PowerMILL</a>, <a href="http://www.powershape.com/" target="_blank">PowerSHAPE</a> and <a href="http://www.featurecam.co.uk/" target="_blank">FeatureCAM</a> products</li>
 							<li><span class="strongish">Time Saving Techniques</span> using leading edge technologies e.g. Autodesk <a href="http://www.vortexmachining.com/" target="_blank">Vortex</a></li>
 							<li><span class="strongish">Data Import/Export</span> facilities including <a href="http://en.wikipedia.org/wiki/ISO_10303-21" target="_blank">STP</a>, <a href="http://en.wikipedia.org/wiki/Parasolid" target="_blank">XT</a>, <a href="http://en.wikipedia.org/wiki/IGES" target="_blank">IGES</a>, <a href="http://en.wikipedia.org/wiki/AutoCAD_DXF" target="_blank">DXF</a> and <a href="http://en.wikipedia.org/wiki/.dwg" target="_blank">DWG</a> file formats to name a few</li>
-							<li><span class="strongish">Software Integration</span> optimising and simluating machine programming, CNC machining and up-front error correction using <a href="http://www.cgtech.co.uk/" target="_blank">VERICUT</a></li>
+							<li><span class="strongish">Software Integration</span> optimising and simulating machine programming, CNC machining and up-front error correction using <a href="http://www.cgtech.co.uk/" target="_blank">VERICUT</a></li>
 						</ul>
 					</div>
 				</div>
@@ -371,7 +371,7 @@
 							<li>Surface Finish Testing</li>
 							<li>Shadowgraph Capabilities</li>
 						</ul>
-						<p>Full details of our Plant and Equiment can be requested via <a href="#contact" class="scrollto">contact us</a></p>
+						<p>Full details of our Plant and Equipment can be requested via <a href="#contact" class="scrollto">contact us</a></p>
 						<p>Please feel free to <a href="downloads/AJM UKAS CERT.pdf" target="_blank">download</a> a copy of our current Certification.</p>
 					</div>
 					<div class="span4">
@@ -459,10 +459,10 @@
                 <div class="row-fluid">
 					<div class="span3">
                         <div class="person">
-                            <img alt="NAME" src="img/profiles/clivemiles.jpg">
-                            <h2>Clive Miles</h2>
-                            <p class="position">Quality<br/>Manager</p>
-                            <p><a href="mailto:clive@ajmay.uk">clive@ajmay.uk</a></p>
+                            <img alt="NAME" src="img/profiles/person_female.jpg">
+                            <h2>Kim Miseldine</h2>
+                            <p class="position">QA<br/>Manager</p>
+                            <p><a href="mailto:kmiseldine@ajmay.uk">kmiseldine@ajmay.uk</a></p>
                             <p><a href="tel:01249717819">+44 01249 717819</a></p>
                             <ul class="inline text-center">
                             </ul>
