@@ -615,7 +615,7 @@
 	                ?>
 
                     <div class="span7">
-                        <form name="htmlform" method="post" action="http://mailer.netsketch.co.uk/messageServiceV2.php">
+						<form name="htmlform" method="post" action="http://mailer.netsketch.co.uk/messageServiceV2.php">
                             <input type="text"		id="contact_name" 		name="contact_name" 		placeholder="Your name" required />
                             <input type="email"		id="contact_email" 		name="contact_email" 		placeholder="E-mail" required />
                             <input type="tel"		id="contact_telephone" 	name="contact_telephone" 	placeholder="Contact Number" required />
@@ -625,7 +625,9 @@
 						    <input type="hidden"	id="returnURL" 			name="returnURL" 			value="http://www.ajmay.uk/" />
 						    <input type="hidden"	id="returnSuccess" 		name="returnSuccess" 		value="?contactus=success#contact" />
 						    <input type="hidden"	id="returnFail" 		name="returnFail" 			value="?contactus=failed#contact" />
-                            <button name="send" type="submit" class="btn">Send</button>
+							<div class="g-recaptcha" data-sitekey="6Le_9aMUAAAAAIMvaNQoJr7NVdS8ERqajXp2s-TS"></div>
+							<div class="alert alert-warning alert-captcha hide">Please ensure you confirm you're not a robot!</div>
+							<button name="send" type="submit" class="btn mt-2">Send</button>
                         </form>
                     </div>
 
@@ -686,8 +688,20 @@
 
 			$('#myCarousel').carousel();
 
+			$("form").submit(function(event) {
+
+				const recaptcha = $("#g-recaptcha-response").val();
+
+				if (recaptcha === "") {
+					event.preventDefault();
+					$('.alert-captcha').fadeIn();
+				}
+
+			});
 	    </script>
 
-        <script src="js/main.js"></script>
+		<script src="js/main.js"></script>
+		
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </body>
 </html>
