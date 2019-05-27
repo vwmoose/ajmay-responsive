@@ -225,6 +225,12 @@ ul.homenav.right { margin-left: 170px; }
 	color: #d3d3d3;
 }
 
+/* recaptcha */
+.g-recaptcha {
+	margin: 0 auto;
+    width: 50%;
+    padding-bottom: 8px;
+}
 
 @media (max-width: 480px) {
 
