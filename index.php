@@ -605,7 +605,7 @@
 								echo '<div class="alert alert-error alert-block" style="margin-top: 20px;">';
 								echo '	<button type="button" class="close" data-dismiss="alert">&times;</button>';
 								echo '	<h4>We\'re Sorry!</h4>';
-								echo '	Unfortunately something has gone wrong and your email has not been sent.  Please contact us on 01249 712620 and we\'ll endeavour to answer enquiry!';
+								echo '	Unfortunately something has gone wrong and your email has not been sent.  Please contact us on 01249 712620 and we\'ll endeavour to answer your enquiry!';
 								echo '</div>';
 							}
 
@@ -621,7 +621,7 @@
                             <input type="tel"		id="contact_telephone" 	name="contact_telephone" 	placeholder="Contact Number" required />
                             <textarea				id="contact_message" 	name="contact_message" 		cols="1" rows="5" placeholder="Your message" required ></textarea>
                             <input type="hidden"	id="contact_recipients"	name="contact_recipients"	value="sales@ajmay.uk" />
-							<input type="hidden"	id="contact_subject" 	name="contact_subject" 		value="Website Enquiry" required />
+							<input type="hidden"	id="contact_subject" 	name="contact_subject" 		value="AJM Sales" required />
 						    <input type="hidden"	id="returnURL" 			name="returnURL" 			value="http://www.ajmay.uk/" />
 						    <input type="hidden"	id="returnSuccess" 		name="returnSuccess" 		value="?contactus=success#contact" />
 						    <input type="hidden"	id="returnFail" 		name="returnFail" 			value="?contactus=failed#contact" />
