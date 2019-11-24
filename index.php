@@ -22,10 +22,11 @@
         <link rel="stylesheet" type="text/css" href="css/timeline.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/ajmay.css">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
 		<script type="text/javascript">
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -615,12 +616,14 @@
 	                ?>
 
                     <div class="span7">
-						<form name="htmlform" method="post" action="http://mailer.netsketch.co.uk/messageServiceV2.php">
+						<form name="htmlform" method="post" action="https://mailer.netsketch.co.uk/messageServiceAuth.php">
                             <input type="text"		id="contact_name" 		name="contact_name" 		placeholder="Your name" required />
                             <input type="email"		id="contact_email" 		name="contact_email" 		placeholder="E-mail" required />
                             <input type="tel"		id="contact_telephone" 	name="contact_telephone" 	placeholder="Contact Number" required />
                             <textarea				id="contact_message" 	name="contact_message" 		cols="1" rows="5" placeholder="Your message" required ></textarea>
-                            <input type="hidden"	id="contact_recipients"	name="contact_recipients"	value="sales@ajmay.uk" />
+							<input type="hidden"	id="contact_recipients"	name="contact_recipients"	value="sales@ajmay.uk" />
+							<input type="hidden"	id="sender_email"		name="sender_email"			value="webmail@ajmay.uk" />
+							<input type="hidden"	id="sender_name"		name="sender_name"			value="AJM Website" />
 							<input type="hidden"	id="contact_subject" 	name="contact_subject" 		value="AJM Sales" required />
 						    <input type="hidden"	id="returnURL" 			name="returnURL" 			value="http://www.ajmay.uk/" />
 						    <input type="hidden"	id="returnSuccess" 		name="returnSuccess" 		value="?contactus=success#contact" />
@@ -656,7 +659,7 @@
                 <img src="img/ajm_logo_xsml.png" alt="AJM Engineering Ltd" />
             </a>
             <br/>
-            <span class="netsketch">Developed by <a href="http://www.netsketch.co.uk/" target="_blank">Netsketch Ltd</a></span>
+            <span class="netsketch">Developed by <a href="https://www.netsketch.co.uk/" target="_blank">Netsketch Ltd</a></span>
         </footer>
 
         <script src="js/vendor/jquery-1.9.1.min.js"></script>
@@ -666,9 +669,10 @@
 		<script src="js/jquery.scrollto.js"></script>
 		<script src="js/grid.js"></script>
 		<script src="js/jquery.svg_fallback.js"></script>
+
 		<script>
 
-           $('#slider').cycle({
+            $('#slider').cycle({
                 fx : 'scrollVert',
                 timeout: 6000,
                 speed: 300,
@@ -689,13 +693,23 @@
 			$('#myCarousel').carousel();
 
 			$("form").submit(function(event) {
-
+				
 				const recaptcha = $("#g-recaptcha-response").val();
 
 				if (recaptcha === "") {
 					event.preventDefault();
 					$('.alert-captcha').fadeIn();
+				} else {
+
+					Swal.fire({
+						title: "Sending...",
+						text: "Please wait",
+						imageUrl: "img/loading.gif",
+						showConfirmButton: false,
+						allowOutsideClick: false
+					});
 				}
+
 
 			});
 	    </script>
