@@ -229,7 +229,7 @@
 							<a href="#" data-largesrc="img/portfolio/portfolio-12.png" data-thumb="img/portfolio/thumbs/portfolio-12-thumb.png" data-title="<?php echo $strTitle_2; ?>" data-description="<?php echo $strBlock_2; ?>"></a>
 	                    </div>
                     </li>
-					<li>
+					          <li>
                         <a href="#" data-largesrc="img/portfolio/portfolio-11.png" data-title="<?php echo $strTitle_3; ?>" data-description="<?php echo $strBlock_3; ?>">
                             <img src="img/portfolio/portfolio-11.png" alt="img01"/>
                             <div class="works_title"><span>more info...</span></div>
@@ -241,7 +241,7 @@
 	                        <a href="#" data-largesrc="img/portfolio/portfolio-19.png" data-thumb="img/portfolio/thumbs/portfolio-19-thumb.png" data-title="<?php echo $strTitle_3; ?>" data-description="<?php echo $strBlock_3; ?>"></a>
 	                    </div>
                     </li>
-					<li>
+					          <li>
                         <a href="#" data-largesrc="img/portfolio/portfolio-21.png" data-title="<?php echo $strTitle_4; ?>" data-description="<?php echo $strBlock_4; ?>">
                             <img src="img/portfolio/portfolio-21.png" alt="img21"/>
                             <div class="works_title"><span>more info...</span></div>
@@ -263,7 +263,8 @@
 							<li><span class="strongish">Creating more value for customers</span> with fewer resources</li>
 							<li><span class="strongish">Confidentiality</span> protecting your sensitive information and concepts every step of the way</li>
 							<li><span class="strongish">Project Management</span> - dedicated lead overseeing and communicating your order's progress from beginning to end</li>
-							<li><span class="strongish">Access FactoryMaster</span> - MRP system delivering "as near real-time" proactive work monitoring</li>
+              <li><span class="strongish">Access FactoryMaster</span> - MRP system delivering "as near real-time" proactive work monitoring</li>
+              <li><span class="strongish">Access Orchestrate</span> – MRP Linked Production Planning and Scheduling Software</li>
 							<li><span class="strongish">In-process Controls</span> aligned to individual customer requirements</li>
 							<li><span class="strongish">Flexible Approach</span> to meet customer demands e.g. time constrained delivery</li>
 							<li><span class="strongish">Single Production Process</span> using approved Suppliers and Sub-Contractors for elements we can't provide in-house</li>
@@ -277,7 +278,7 @@
 						<span id="technology" class="anchor"></span>
 						<strong>Investing in new technology</strong>
 						<ul>
-							<li><span class="strongish">2D, 3D & 3D Modelling</span> using <a href="https://www.autodesk.co.uk/" target="_blank">Autodesk</a>, <a href="http://www.powermill.com/" target="_blank">PowerMILL</a>, <a href="http://www.powershape.com/" target="_blank">PowerSHAPE</a> and <a href="http://www.featurecam.co.uk/" target="_blank">FeatureCAM</a> products</li>
+							<li><span class="strongish">2D, 3D & 3D Modelling</span> using <a href="https://www.autodesk.co.uk/" target="_blank">Autodesk</a>, <a href="https://www.autodesk.co.uk/products/fusion-360/overview" target="_blank">Fusion 360</a>, <a href="http://www.powermill.com/" target="_blank">PowerMILL</a>, <a href="http://www.powershape.com/" target="_blank">PowerSHAPE</a> and <a href="http://www.featurecam.co.uk/" target="_blank">FeatureCAM</a> products</li>
 							<li><span class="strongish">Time Saving Techniques</span> using leading edge technologies e.g. Autodesk <a href="http://www.vortexmachining.com/" target="_blank">Vortex</a></li>
 							<li><span class="strongish">Data Import/Export</span> facilities including <a href="http://en.wikipedia.org/wiki/ISO_10303-21" target="_blank">STP</a>, <a href="http://en.wikipedia.org/wiki/Parasolid" target="_blank">XT</a>, <a href="http://en.wikipedia.org/wiki/IGES" target="_blank">IGES</a>, <a href="http://en.wikipedia.org/wiki/AutoCAD_DXF" target="_blank">DXF</a> and <a href="http://en.wikipedia.org/wiki/.dwg" target="_blank">DWG</a> file formats to name a few</li>
 							<li><span class="strongish">Software Integration</span> optimising and simulating machine programming, CNC machining and up-front error correction using <a href="http://www.cgtech.co.uk/" target="_blank">VERICUT</a></li>
@@ -292,7 +293,7 @@
 							Outputs can be generated in 2D, 3D or tailored to your specific requirements.</p>
 						<ul>
 							<li><span class="strongish">CNC Turning</span><br/>
-								9 machines capable of turning material up to &empty;900mm x 3,200mm<br/>
+								10 machines capable of turning material up to &empty;900mm x 3,200mm<br/>
 								2 CNC Mill/Turn Lathes with integrated Y-axis capability</li>
 							<li><span class="strongish">CNC Milling</span><br/>
 								11 machines capable of machining :-<br/>
@@ -303,7 +304,7 @@
 								up to &empty;560mm x 3,000mm and 840mm x 340mm</li>
 							<li><span class="strongish">CNC Graphite Milling</span></li>
 							<li><span class="strongish">Spark Erosion</span><br/>
-								4 machines capable of 4 axis up to 1,400mm x 950mm x 500mm</li>
+								5 machines capable of 4 axis up to 2,100mm x 1,250mm x 650mm</li>
 							<li><span class="strongish">Wire Erosion</span><br/>
 								3 machines capable of 5 axis up to 800mm x 570mm x 340mm</li>
 							<li><span class="strongish">Surface Grinding</span><br/>
@@ -474,7 +475,7 @@
                             <h2>Dave Owen</h2>
                             <p class="position">Engineering Support<br/>Manager</p>
                             <p><a href="mailto:dowen@ajmay.uk">dowen@ajmay.uk</a></p>
-                            <p><a href="tel:01249717817">+44 01249 717817</a></p>
+                            <p><a href="tel:01249717817">+44 01249 712620</a></p>
                             <ul class="inline text-center">
                             </ul>
                         </div>
@@ -486,6 +487,17 @@
                             <p class="position">Mould & Toolmaking<br/>CAD Engineer</p>
                             <p><a href="mailto:neaston@ajmay.uk">neaston@ajmay.uk</a></p>
                             <p><a href="tel:01249717816">+44 01249 717816</a></p>
+                            <ul class="inline text-center">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="span3">
+                        <div class="person">
+                            <img alt="Nick Easton" src="img/profiles/person.jpg">
+                            <h2>Steve Rae</h2>
+                            <p class="position">Area Sales<br/>Manager</p>
+                            <p><a href="mailto:srae@ajmay.uk">srae@ajmay.uk</a></p>
+                            <p><a href="tel:01249717816">+44 07801 900229</a></p>
                             <ul class="inline text-center">
                             </ul>
                         </div>
