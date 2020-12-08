@@ -263,8 +263,8 @@
 							<li><span class="strongish">Creating more value for customers</span> with fewer resources</li>
 							<li><span class="strongish">Confidentiality</span> protecting your sensitive information and concepts every step of the way</li>
 							<li><span class="strongish">Project Management</span> - dedicated lead overseeing and communicating your order's progress from beginning to end</li>
-              <li><span class="strongish">Access FactoryMaster</span> - MRP system delivering "as near real-time" proactive work monitoring</li>
-              <li><span class="strongish">Access Orchestrate</span> – MRP Linked Production Planning and Scheduling Software</li>
+              <li><span class="strongish">Access FactoryMaster</span> - ERP system delivering "as near real-time" proactive work monitoring</li>
+              <li><span class="strongish">Access Orchestrate</span> – ERP Linked Production Planning and Scheduling Software</li>
 							<li><span class="strongish">In-process Controls</span> aligned to individual customer requirements</li>
 							<li><span class="strongish">Flexible Approach</span> to meet customer demands e.g. time constrained delivery</li>
 							<li><span class="strongish">Single Production Process</span> using approved Suppliers and Sub-Contractors for elements we can't provide in-house</li>
@@ -361,7 +361,7 @@
 					<div class="span1"></div>
 					<div class="span7 lead">
 						<p><strong>Fully certified</strong> to <a href="https://en.wikipedia.org/wiki/AS9100" target="_blank">AS9100D</a> and <a href="https://www.iso.org/obp/ui/#iso:std:iso:9001:ed-5:v1:en" target="_blank">ISO9001:2015</a></p>
-						<p>Our <a href="http://www.theaccessgroup.com/solutions/access-factorymaster.aspx" target="_blank">MRP system</a> assists the Quality team
+						<p>Our <a href="http://www.theaccessgroup.com/solutions/access-factorymaster.aspx" target="_blank">ERP system</a> assists the Quality team
 							in continually monitoring ourselves to aid process improvement.</p>
 						<p>Our capability allows us the flexibility to tailor our service to meet your individual business requirements e.g. the supply of supporting quality documentation as required.</p>
 						<p>To ensure we maintain our high levels of quality we have a wide variety of equipment which includes :- </p>
@@ -373,12 +373,12 @@
 							<li>Shadowgraph Capabilities</li>
 						</ul>
 						<p>Full details of our Plant and Equipment can be requested via <a href="#contact" class="scrollto">contact us</a></p>
-						<p>Please feel free to <a href="downloads/AJM UKAS CERT.pdf" target="_blank">download</a> a copy of our current Certification.</p>
+						<p>Please feel free to <a href="downloads/AJM_AS_Cert_00003759_0043836_QMS_AS9100_ENGUS_UKAS_(003).pdf" target="_blank">download</a> a copy of our current Certification.</p>
 					</div>
 					<div class="span4">
 						<div class="text-center">
 							<img src="img/ISO-9001_AND_AS-9100_UKAS_small.png" alt="ISO9001 & AS9100" /><br/><br/>
-							<a href="downloads/AJM_AS9100_ISO9001_Cert_00003759_0043836_QMS_AS9100_ENGUS_UKAS_(002).pdf" target="_blank"><img src="img/cert_download.png" alt="ISO Certificate" /></a>
+							<a href="downloads/AJM_AS_Cert_00003759_0043836_QMS_AS9100_ENGUS_UKAS_(003).pdf" target="_blank"><img src="img/cert_download.png" alt="ISO Certificate" /></a>
 						</div>
 					</div>
 				</div>
@@ -577,15 +577,15 @@
 <!--                        </div>-->
 <!--                    </li>-->
 <!--                </ul>-->
-<!--            </div><!-- end: .containter -->-->
-<!--        </section><!-- end: #timeline -->-->
+<!--            </div> -->
+<!--        </section> -->
 
-        <div class="container txtblock nrthree">
+        <div class="container txtblock nrthree marginer-top-30">
         	<div class="container-inner">
 	        	<div class="quote quoteLeft"></div>
 	        	<div class="quote quoteRight"></div>
 	            <p class="text-center lead">Our offices are situated in Corsham, Wiltshire within easy access of the M4 where we've been since 1964.</p>
-			</div>
+			      </div>
         </div> <!-- end: container txtblock -->
 
         <section id="contact">
@@ -627,19 +627,20 @@
 	                ?>
 
                     <div class="span7">
-						<form name="htmlform" method="post" action="http://mailer.netsketch.co.uk/messageServiceV2.php">
-                            <input type="text"		id="contact_name" 		name="contact_name" 		placeholder="Your name" required />
-                            <input type="email"		id="contact_email" 		name="contact_email" 		placeholder="E-mail" required />
-                            <input type="tel"		id="contact_telephone" 	name="contact_telephone" 	placeholder="Contact Number" required />
-                            <textarea				id="contact_message" 	name="contact_message" 		cols="1" rows="5" placeholder="Your message" required ></textarea>
-                            <input type="hidden"	id="contact_recipients"	name="contact_recipients"	value="sales@ajmay.uk" />
-							<input type="hidden"	id="contact_subject" 	name="contact_subject" 		value="Website Enquiry" required />
-						    <input type="hidden"	id="returnURL" 			name="returnURL" 			value="http://www.ajmay.uk/" />
-						    <input type="hidden"	id="returnSuccess" 		name="returnSuccess" 		value="?contactus=success#contact" />
-						    <input type="hidden"	id="returnFail" 		name="returnFail" 			value="?contactus=failed#contact" />
-							<div class="g-recaptcha" data-sitekey="6Le_9aMUAAAAAIMvaNQoJr7NVdS8ERqajXp2s-TS"></div>
-							<div class="alert alert-warning alert-captcha hide">Please ensure you confirm you're not a robot!</div>
-							<button name="send" type="submit" class="btn mt-2">Send</button>
+                        <form name="htmlform" method="post" action="https://mailer.netsketch.co.uk/messageServiceAJM.php">
+                          <input type="text"	id="contact_name" 		    name="contact_name" 		placeholder="Your name" required />
+                          <input type="email"	id="contact_email" 		    name="contact_email"        placeholder="E-mail" required />
+                          <input type="tel"		id="contact_telephone" 	    name="contact_telephone" 	placeholder="Contact Number" required />
+                          <textarea				id="contact_message" 	    name="contact_message" 		cols="1" rows="5" placeholder="Your message" required ></textarea>
+                          <input type="hidden"	id="contact_recipients"	    name="contact_recipients"	value="sales@ajmay.uk,phil@netsketch.co.uk" />
+                          <input type="hidden"	id="contact_subject" 	    name="contact_subject" 		value="Website Enquiry" required />
+                          <input type="hidden"	id="returnURL" 			    name="returnURL" 			value="http://www.ajmay.uk/" />
+                          <input type="hidden"	id="returnSuccess" 		    name="returnSuccess" 		value="?contactus=success#contact" />
+                          <input type="hidden"	id="returnFail" 	    	name="returnFail" 			value="?contactus=failed#contact" />
+                          <input type="hidden"	id="hpName" 	    	    name="hpName" 			    value="?contactus=failed#contact" />
+                          <div class="g-recaptcha" data-sitekey="6Le_9aMUAAAAAIMvaNQoJr7NVdS8ERqajXp2s-TS"></div>
+                          <div class="alert alert-warning alert-captcha hide">Please ensure you confirm you're not a robot!</div>
+                          <button name="send" type="submit" class="btn mt-2">Send</button>
                         </form>
                     </div>
 
