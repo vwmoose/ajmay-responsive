@@ -637,7 +637,7 @@
                           <input type="hidden"	id="returnURL" 			    name="returnURL" 			value="http://www.ajmay.uk/" />
                           <input type="hidden"	id="returnSuccess" 		    name="returnSuccess" 		value="?contactus=success#contact" />
                           <input type="hidden"	id="returnFail" 	    	name="returnFail" 			value="?contactus=failed#contact" />
-                          <input type="hidden"	id="hpName" 	    	    name="hpName" 			    value="?contactus=failed#contact" />
+                          <input type="hidden"	id="hpName" 	    	    name="hpName" 			    value="" />
                           <div class="g-recaptcha" data-sitekey="6Le_9aMUAAAAAIMvaNQoJr7NVdS8ERqajXp2s-TS"></div>
                           <div class="alert alert-warning alert-captcha hide">Please ensure you confirm you're not a robot!</div>
                           <button name="send" type="submit" class="btn mt-2">Send</button>
