@@ -632,7 +632,7 @@
                           <input type="email"	id="contact_email" 		    name="contact_email"        placeholder="E-mail" required />
                           <input type="tel"		id="contact_telephone" 	    name="contact_telephone" 	placeholder="Contact Number" required />
                           <textarea				id="contact_message" 	    name="contact_message" 		cols="1" rows="5" placeholder="Your message" required ></textarea>
-                          <input type="hidden"	id="contact_recipients"	    name="contact_recipients"	value="sales@ajmay.uk,phil@netsketch.co.uk" />
+                          <input type="hidden"	id="contact_recipients"	    name="contact_recipients"	value="sales@ajmay.uk" />
                           <input type="hidden"	id="contact_subject" 	    name="contact_subject" 		value="Website Enquiry" required />
                           <input type="hidden"	id="returnURL" 			    name="returnURL" 			value="http://www.ajmay.uk/" />
                           <input type="hidden"	id="returnSuccess" 		    name="returnSuccess" 		value="?contactus=success#contact" />
