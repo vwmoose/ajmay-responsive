@@ -22,8 +22,8 @@
         <link rel="stylesheet" type="text/css" href="css/timeline.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/ajmay.css">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
@@ -378,7 +378,8 @@
 					<div class="span4">
 						<div class="text-center">
 							<img src="img/ISO-9001_AND_AS-9100_UKAS_small.png" alt="ISO9001 & AS9100" /><br/><br/>
-							<a href="downloads/AJM_AS_Cert_00003759_0043836_QMS_AS9100_ENGUS_UKAS_(003).pdf" target="_blank"><img src="img/cert_download.png" alt="ISO Certificate" /></a>
+							<a href="downloads/AJM_AS_Cert_00003759_0043836_QMS_AS9100_ENGUS_UKAS_(003).pdf" target="_blank"><img src="img/cert_download.png" alt="ISO Certificate" /></a><br/>
+                            <img style="margin-top: 20px; width: 128px;" src="img/logos/cyberessentials_certification mark_colour.png" alt="Cyber Essentials Certification Mark" />
 						</div>
 					</div>
 				</div>
