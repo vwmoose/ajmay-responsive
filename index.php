@@ -373,7 +373,7 @@
 							<li>Shadowgraph Capabilities</li>
 						</ul>
 						<p>Full details of our Plant and Equipment can be requested via <a href="#contact" class="scrollto">contact us</a></p>
-						<p>Please feel free to <a href="downloads/AJM_AS_Cert_00003759_0043836_QMS_AS9100_ENGUS_UKAS_(003).pdf" target="_blank">download</a> a copy of our current Certification.</p>
+						<p>Please feel free to <a href="downloads/2021_2024_AS9100D_LR_Cert_00003759-0043836-AS9100-QMS-ENGUS-UKAS.pdf" target="_blank">download</a> a copy of our current Certification.</p>
 					</div>
 					<div class="span4">
 						<div class="text-center">
