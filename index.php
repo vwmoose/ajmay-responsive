@@ -378,7 +378,7 @@
 					<div class="span4">
 						<div class="text-center">
 							<img src="img/ISO-9001_AND_AS-9100_UKAS_small.png" alt="ISO9001 & AS9100" /><br/><br/>
-							<a href="downloads/AJM_AS_Cert_00003759_0043836_QMS_AS9100_ENGUS_UKAS_(003).pdf" target="_blank"><img src="img/cert_download.png" alt="ISO Certificate" /></a><br/>
+							<a href="downloads/2021_2024_AS9100D_LR_Cert_00003759-0043836-AS9100-QMS-ENGUS-UKAS.pdf" target="_blank"><img src="img/cert_download.png" alt="ISO Certificate" /></a><br/>
                             <img style="margin-top: 20px; width: 128px;" src="img/logos/cyberessentials_certification mark_colour.png" alt="Cyber Essentials Certification Mark" />
 						</div>
 					</div>
